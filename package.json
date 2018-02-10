@@ -1,0 +1,17 @@
+{
+  "name": "web-technologies-course",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "serve": "revealer --serve",
+    "build": "revealer --build"
+  },
+  "dependencies": {
+    "reveal.js": "^3.6.0",
+    "revealer": "^2.0.4"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
