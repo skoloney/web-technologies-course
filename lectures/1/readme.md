@@ -21,3 +21,6 @@ MDN Guide
  - https://habrahabr.ru/company/livetyping/blog/324196/
  - https://habrahabr.ru/company/livetyping/blog/324506/
  - https://habrahabr.ru/company/livetyping/blog/324908/
+ 
+Принцип именования версий JS и краткое описание фич каждой из новых версий
+https://tproger.ru/translations/wtf-is-ecmascript/
