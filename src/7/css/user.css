@@ -1,0 +1,148 @@
+.reveal .slides {
+    width: 90% !important;
+}
+
+.reveal .slides > section {
+    padding: 0;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+    text-transform: none;
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.reveal section > p > img {
+    max-width: 60%;
+}
+
+.reveal ul,
+.reveal ul ul {
+    list-style-type: none;
+}
+
+.reveal ul ul {
+    margin-top: .5em;
+}
+
+.reveal ul li {
+    line-height: 1.05em;
+}
+
+.reveal ul li + li {
+    margin-top: .1em;
+}
+
+.reveal li code {
+    font-size: 85%;
+    background-color: #EFEFEF;
+}
+
+.reveal pre code {
+    max-height: none;
+}
+
+div.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.flex > * {
+    width: 48%;
+}
+
+.reveal table th, .reveal table td {
+    font-size: .8em;
+}
+
+.reveal .slides section .fragment.fade-out.visible {
+    display: none;
+}
+
+.print-pdf {
+    width: 1500px !important;
+}
+
+.print-pdf .reveal .slides .pdf-page {
+    display: flex;
+    align-items: center;
+}
+
+.print-pdf .reveal .slides .pdf-page section {
+    width: 1400px !important;
+    position: static !important;
+    margin: auto !important;
+
+}
+
+.red {
+    background-color: #ff5451;
+}
+
+.green {
+    background-color: #8fff96;
+}
+
+.big-button {
+    font-size: 1.1em;
+    font-weight: bold;
+    width: 8em;
+    height: 1.5em;
+    margin-top: .5em;
+}
+
+
+.print-pdf .reveal .slides .pdf-page section ul li {
+    font-size: 90%;
+    margin-bottom: .5em;
+}
+
+
+.customImage{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    z-index: 10;
+    width: 33%;
+    height: 50%;
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+#bear{
+    background: #dcdcdc url(/img/kovtunenko.jpeg) no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+#sick{
+    background: #dcdcdc url(/img/sick.webp) no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
