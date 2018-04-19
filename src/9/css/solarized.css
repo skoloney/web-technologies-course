@@ -1,0 +1,96 @@
+/*
+    Name:       Base16 Solarized Light
+    Author:     Ethan Schoonover (http://ethanschoonover.com/solarized)
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+*/
+
+/*
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+*/
+
+
+
+/* Solarized Comment */
+.hljs-comment {
+  color: #839496;
+}
+
+/* Solarized Red */
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #dc322f;
+}
+
+/* Solarized Orange */
+.hljs-preprocessor,
+.hljs-constant {
+  color: #cb4b16;
+}
+
+/* Solarized Yellow */
+.css .hljs-rules .hljs-attribute {
+  color: #b58900;
+}
+
+/* Solarized Green */
+.hljs-built_in,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #859900;
+}
+
+/* Solarized Cyan */
+.hljs-string {
+  color: #2aa198;
+}
+
+/* Solarized Blue */
+.hljs-function,
+.hljs-number,
+.hljs-literal {
+  color: #268bd2;
+}
+
+/* Solarized Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #6c71c4;
+}
+
+/* Solarized Darkgrey */
+.hljs-params,
+.hljs-variable,
+.hljs-title {
+    color: #073642;
+}
+
+.hljs {
+  display: block;
+  background: #fefefe;
+  color: #073642;
+  padding: 0.5em;
+}
